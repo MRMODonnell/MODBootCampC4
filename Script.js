@@ -87,13 +87,28 @@ let finances = [
     ['Feb-2017', 671099]
     ];
 
-    let TotalMonths = (finances.length);
-    // Total Number of Months
-    console.log("Total Number of Records: " + TotalMonths)
+
+//     console.log(typeof (finances))
+
+ 
+//     let TotalMonths = (finances.length);
+// // let Total = Adding all the Green numbers in finances together to work out the total ammount
+//    // let Avergage Change = Average change across the months  
+//     //let greatest positive change= 
+//     //let negative change= 
+
+   
+//     // Total Number of Months
+//     console.log("Total Number of Records: " + TotalMonths)
+
 
     
     // profit
 
     // losss
 
-    
+    // console.log(finances[1][1])
+
+    for (let index = 0; index < finances.length; index++) {
+        console.log(finances[index][1]);   
+    }
