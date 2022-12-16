@@ -107,8 +107,16 @@ let finances = [
 
     // losss
 
-    // console.log(finances[1][1])
 
-    for (let index = 0; index < finances.length; index++) {
-        console.log(finances[index][1]);   
-    }
+
+    // for (let index = 0; index < finances.length; index++) {
+    //     console.log(finances[index][1]);   
+    // }
+
+let Total= 0 
+console.log(Total)
+
+for  (let i = 0; i <finances.length; i++){
+    Total+=finances[i][1]
+}
+console.log(Total)
