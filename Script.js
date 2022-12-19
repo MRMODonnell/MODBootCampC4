@@ -91,15 +91,13 @@ let finances = [
 //     console.log(typeof (finances))
 
  
-//     let TotalMonths = (finances.length);
+    let TotalMonths = (finances.length);
 // // let Total = Adding all the Green numbers in finances together to work out the total ammount
 //    // let Avergage Change = Average change across the months  
 //     //let greatest positive change= 
 //     //let negative change= 
 
    
-//     // Total Number of Months
-//     console.log("Total Number of Records: " + TotalMonths)
 
 
     
@@ -114,9 +112,20 @@ let finances = [
     // }
 
 let Total= 0 
-console.log(Total)
+
 
 for  (let i = 0; i <finances.length; i++){
     Total+=finances[i][1]
 }
-console.log(Total)
+
+console.log("Financal Analysis")
+console.log("..............................")
+    // Total Number of Months
+    console.log("Total Number of Records: " + TotalMonths)
+
+console.log("Total($): "+Total)
+console.log("Average Change: ")
+console.log("Greatest Increase: ")
+console.log ("Greatest Decrease: ")
+
+
